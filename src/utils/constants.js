@@ -14,3 +14,12 @@ export const api_options = {
 };
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const BG_URL =
+  "https://www.astound.com/wp-content/uploads/2022/11/netflix-hero-200x600-darker-1.webp";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "bengali", name: "Bengali" },
+];
