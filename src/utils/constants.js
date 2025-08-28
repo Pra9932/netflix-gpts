@@ -10,6 +10,7 @@ export const api_options = {
     accept: "application/json",
     Authorization:
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMjFkNzBjZDU1ZDlkMGUwNTBiZTM5N2JiMDRkYmZkNSIsIm5iZiI6MTc1NTk0NTgxNy4wNSwic3ViIjoiNjhhOTliNTljOTg1NmQxMTJhOWRhOWIyIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.KYhQc8YFI7bG05C3BDDwlyCVEdcVH3GfkYksYy2XoBw",
+    //process.env.REACT_APP_TMDB_KEY
   },
 };
 
@@ -23,3 +24,6 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
   { identifier: "bengali", name: "Bengali" },
 ];
+
+export const OPENAI_KEY =
+  "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"; //process.env.REACT_APP_OPENAI_KEY;
